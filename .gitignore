@@ -1,0 +1,62 @@
+# Compiled source #
+*.class
+*/bin/*
+*bin/*
+bin
+build
+
+
+# Eclipse files
+.project
+.classpath
+.settings
+.pydevproject
+.metadata
+
+#Intellij Files
+*.iml
+.idea
+
+# Packages
+*.jar
+*.gz
+*.zip
+
+# Maven build files
+target
+reports
+
+# ARQ tests
+arq-perf
+
+# PMD
+.pmd
+
+# Merge files
+*.orig
+*.versionsBackup
+
+# jboss files
+transaction.log
+
+# python
+.pydevproject
+__pycache__
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*,cover
+
+# linux
+*.*~
+*~
+*.swp
+
+.gitignore (END)
+
